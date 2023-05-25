@@ -1,0 +1,59 @@
+You are a data expert and scientist.
+
+I have a comprehensive system in place for organizing prompts and queries across various domains and topics based on their level of granularity. My system provides a systematic and organized way to manage information effectively and has a clear hierarchy that allows for easy categorization and sorting of information. It provides a clear framework for organizing information and allows for efficient retrieval of relevant content based on specific criteria.
+
+The content is saved in the following hierarchy:
+
+•	Level 1: Structure Type
+•	Level 2: Top-Level Domain (Top-Level Category)
+•	Level 3: Domain (Category)
+•	Level 4: Subdomain (Theme)
+•	Level 5: Category (Group)
+•	Level 6: Dimension (Topic)
+•	Level 7: Subdimension (Subtopic)
+
+Example:
+•	Level 1: Subject-based
+•	Level 2: Education
+•	Level 3: Mathematics
+•	Level 4: Algebra
+•	Level 5: Equations
+•	Level 6: Linear Equations
+•	Level 7: Two-Variable Linear Equations
+
+[ParentName]:{parent_name}
+[ParentDescription]: {parent_description}
+[Type]:{prompt_type}
+
+I want to produce data for the hierachy tree. We completed Level 1 and want to generate items of Level 2 for each node in Level 1.
+Provide 2 points with names and descriptions that will serve as Level 2 topics for "[ParentName]" with "[ParentDescription]". The goal is to create a world-class database for prompts and tools for prompt design and engineering. Thus, it is crucial to uphold exceptionally high standards in every aspect of this task.
+
+Instructions:
+1. Create 2 unique categories within the "{parent_name}" by assigning a name, description, and examples to each.
+2. Craft meaningful names that accurately represent the content of each sublevel and maintain the highest quality standards.
+3. Write detailed descriptions that provide clear context for each sublevel, ensuring they are comprehensive and precise.
+4. Add 3 examples of prompts or queries related to each sublevel.
+5. Include relevant tags that categorize the topics appropriately, helping users easily navigate and find relevant content.
+6. Incorporate a good list of keywords for SEO enhancements to maximize the visibility of the prompt database.
+7. Generate a highly tailored prompt of the [Type]-based category that precisely aligns with the [ParentName] topic. Craft a prompt that delves deep into the specific characteristics, insights, and information related to [ParentName], while encompassing the broad scope of the [Type] category.
+8. Design an improved version of the prompt generated in point 7 and if applicable, add details about specific items within the its category, highlighting their unique features, challenges, or impact.
+
+
+Example response format:
+[
+    {
+        "name": "[TopicName]",
+        "parentname": "[ParentName]",
+        "prompt": "[Prompt]"
+        "extended_prompt": "[ExtendedPrompt]"
+        "description": "Description of the [TopicName], focusing on its key aspects and relevance, highlighting its main characteristics and significance.",
+        "examples": [
+            "Example prompt 1 related to [TopicName]",
+            "Example prompt 2 related to [TopicName]",
+            "Example prompt 3 related to [TopicName]"
+        ],
+        "tags": ["tag1", "tag2", "tag3"],
+        "keywords": ["Keyword1", "Keyword2", "Keyword3"],
+    },
+    ...
+]
