@@ -40,11 +40,12 @@ We welcome contributions to improve this application! If you find any issues or 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Apache-2.0 License](LICENSE).
 
 ## Disclaimer
 
 Please note that the use of this application and the OpenAI API is subject to OpenAI's terms and conditions. Ensure that you comply with their guidelines and policies when using the API.
 
+---
 
-
+> **License note:** As of 2026-10-23 this project is licensed under the Apache License 2.0 (previously MIT). Versions released before this change remain available under MIT to those who received them.
